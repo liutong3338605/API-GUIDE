@@ -4,7 +4,7 @@
 Query the four-channel monitoring parameters of optical transceivers on an RAX711-C-R network element, returning per-channel temperature, voltage, bias current, TX optical power, and RX optical power in a flat tabular structure.
 
 ## API Path
-`http://XX.XX.XX.XX/tiap_ems_basic_mgt/tiap_ems_basic_mgt/v20/optical_transceiver_ddm/four`
+`http://XX.XX.XX.XX/tiap_ems_north/tiap_ems_basic_mgt/v20/optical_transceiver_ddm/four`
 
 ## Request Protocol
 HTTP
@@ -23,7 +23,7 @@ GET
 
 ### Request Example
 ```
-http://172.16.1.248/tiap_ems_basic_mgt/tiap_ems_basic_mgt/v20/optical_transceiver_ddm/four?neId=220&portIndex=272908344&page=1&start=0&limit=25
+http://172.16.1.248/tiap_ems_north/tiap_ems_basic_mgt/v20/optical_transceiver_ddm/four?neId=220&portIndex=272908344&page=1&start=0&limit=25
 ```
 
 ## Response Content

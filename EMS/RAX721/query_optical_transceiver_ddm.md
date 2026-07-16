@@ -4,7 +4,7 @@
 Query digital diagnostics monitoring (DDM) parameters for optical transceivers on an RAX721 network element, including temperature, bias current, TX/RX optical power, and voltage with alarm thresholds.
 
 ## API Path
-`http://XX.XX.XX.XX/tiap_ems_basic_mgt/tiap_ems_basic_mgt/v20/optical_transceiver_ddm`
+`http://XX.XX.XX.XX/tiap_ems_north/tiap_ems_basic_mgt/v20/optical_transceiver_ddm`
 
 ## Request Protocol
 HTTP
@@ -22,7 +22,7 @@ GET
 
 ### Request Example
 ```
-http://172.16.1.248/tiap_ems_basic_mgt/tiap_ems_basic_mgt/v20/optical_transceiver_ddm?neId=127&page=1&start=0&limit=25
+http://172.16.1.248/tiap_ems_north/tiap_ems_basic_mgt/v20/optical_transceiver_ddm?neId=127&page=1&start=0&limit=25
 ```
 
 ## Response Content

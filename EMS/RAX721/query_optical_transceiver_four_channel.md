@@ -4,7 +4,7 @@
 Query the four-channel monitoring parameters of optical transceivers on an RAX721 network element. Note that RAX721 10G SFP+ transceivers are single-channel devices, so this endpoint returns empty data for RAX721; the response structure below documents the expected format when data is present (e.g., for multi-channel transceivers).
 
 ## API Path
-`http://XX.XX.XX.XX/tiap_ems_basic_mgt/tiap_ems_basic_mgt/v20/optical_transceiver_ddm/four`
+`http://XX.XX.XX.XX/tiap_ems_north/tiap_ems_basic_mgt/v20/optical_transceiver_ddm/four`
 
 ## Request Protocol
 HTTP
@@ -23,7 +23,7 @@ GET
 
 ### Request Example
 ```
-http://172.16.1.248/tiap_ems_basic_mgt/tiap_ems_basic_mgt/v20/optical_transceiver_ddm/four?neId=127&portIndex=272900112&page=1&start=0&limit=25
+http://172.16.1.248/tiap_ems_north/tiap_ems_basic_mgt/v20/optical_transceiver_ddm/four?neId=127&portIndex=272900112&page=1&start=0&limit=25
 ```
 
 ## Response Content

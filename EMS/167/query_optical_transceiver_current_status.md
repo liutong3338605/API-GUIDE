@@ -4,7 +4,7 @@
 Query the current operating status of optical transceivers on a specific network element, including CRC check status, DDM enable state, hardware information, loopback status, and port notification configuration.
 
 ## API Path
-`http://XX.XX.XX.XX/tiap_ems_basic_mgt/tiap_ems_basic_mgt/v20/optical_transceiver_current_status`
+`http://XX.XX.XX.XX/tiap_ems_north/tiap_ems_basic_mgt/v20/optical_transceiver_current_status`
 
 ## Request Protocol
 HTTP
@@ -22,7 +22,7 @@ GET
 
 ### Request Example
 ```
-http://172.16.1.248/tiap_ems_basic_mgt/tiap_ems_basic_mgt/v20/optical_transceiver_current_status?neId=283&page=1&start=0&limit=25
+http://172.16.1.248/tiap_ems_north/tiap_ems_basic_mgt/v20/optical_transceiver_current_status?neId=283&page=1&start=0&limit=25
 ```
 
 ## Response Content
