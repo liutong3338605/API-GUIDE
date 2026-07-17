@@ -36,7 +36,7 @@ Json object
 | `userlabel` | Custom label/name of the device | Yes | `string` | - | - | "172.16.67.48" |
 | `nativeemsname` | Native EMS name | No | `null/string` | - | - | null |
 | `aliasnamelist` | Device alias name list | No | `null/array` | - | - | null |
-| `resourcestate` | Device resource status | Yes | `number` | 1 = Normal | Enumerated value: 1 | 1 |
+| `resourcestate` | Device Online status | Yes | `number` | 1 = Online 0: Offline |  | 1 |
 | `longitude` | Device longitude coordinate | No | `null/number` | - | Complies with geographic coordinate specifications | null |
 | `latitude` | Device latitude coordinate | No | `null/number` | - | Complies with geographic coordinate specifications | null |
 | `south_protocol` | Southbound access protocol type | Yes | `number` | 0 = Unknown, 1 = SNMP | Enumerated values: 0, 1 | 1 |
